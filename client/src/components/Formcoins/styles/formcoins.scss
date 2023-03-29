@@ -1,0 +1,48 @@
+$color :#833AE0;
+.input__field {
+ h1{
+    color: #000000;
+    font-weight: 300;
+    font-size: 50px;
+    p{
+        font-size: 10px;
+        font-weight: 500;
+        color: #B1ABAB;
+        margin-bottom: 20px;
+    }
+ }
+ &__form{
+    font-size: 14px;
+    font-weight: 500;
+    p {
+        color: #000000;
+        font-weight: bold;
+    }
+    &-input{
+       width: 374px;
+       padding: 14px 10px;
+       margin-right: 30px;
+    }
+    &-button {
+        border: 1px solid #ffffff;
+        width: 120px;
+        padding: 16px;
+        background-color: $color;
+        color: #ffffff;
+        cursor: pointer;
+        margin-bottom: 10px;
+    }
+    &-options {
+        width: fit-content;
+        cursor: pointer;
+        margin-bottom: 20px;
+        user-select: none;
+        span{
+            margin-right: 14px;
+        }
+        &:hover{
+             text-decoration: underline;
+             }
+    }
+ }
+}
