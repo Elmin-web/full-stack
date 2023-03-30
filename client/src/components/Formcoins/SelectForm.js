@@ -11,13 +11,13 @@ const SelectForm = ({
   const getData = (e) => {
     switch (onChange) {
       case "country":
-        setcountryIndex(e.target.selectedIndex);
+        setcountryIndex(e.target.value);
         break;
       case "metal":
-        setmetalIndex(e.target.selectedIndex);
+        setmetalIndex(e.target.value);
         break;
       case "quality":
-        setqualityIndex(e.target.selectedIndex);
+        setqualityIndex(e.target.value);
         break;
       default: {
         console.log(null);

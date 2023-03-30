@@ -6,6 +6,10 @@
   font-family: 'Roboto';
   outline: none;
 }
+input,select {
+  border: 1px solid #000;
+  border-radius: 4px;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

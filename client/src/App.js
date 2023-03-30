@@ -1,5 +1,13 @@
+import { useSelector } from "react-redux";
+import Homepage from "./components/Homepage/Homepage";
 const App = () => {
-  return <div className="app"></div>;
+  const test = useSelector((state) => state);
+  console.log(test);
+  return (
+    <div className="app">
+      <Homepage />
+    </div>
+  );
 };
 
 export default App;
